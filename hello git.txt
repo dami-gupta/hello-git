@@ -1,0 +1,26 @@
+                                                              ---GIT COMMANDS---
+            COMMANDS                                                                            DESCRIPTION        
+ ----------------------------------------------------------                            ------------------------------------------------------------
+1.  git init                                                                                Initializes a local Git repository.
+2.  git clone ssh://git@github.com/[username]/[repository-name].git                         Create a local copy of a remote repository
+3.  git status	                                                                            Checks status of the current repository
+4.  git add [file-name.txt]	                                                            Add a file to the staging area
+5.  git add -A	                                                                            Add all new and changed files to the staging area
+6.  git commit -m "[commit message]"	                                                    Commit changes
+7.  git rm -r [file-name.txt]	                                                            Remove a file (or folder)
+8.  git push origin [branch name]	                                                    Push a branch to your remote repository
+9.  git push	                                                                            Push changes to remote repository (remembered branch)
+10. git pull	                                                                            Update local repository to the newest commit 
+11. git pull origin [branch name]	                                                    Pull changes from remote repository
+12. git remote add origin ssh://git@github.com/[username]/[repository-name].git	            Add a remote repository
+13. git remote set-url origin ssh://git@github.com/[username]/[repository-name].git	    Set a repository's origin branch to SSH
+
+
+         * STEPS TO PUSH A FILE:-
+1. git init
+2. git status
+3. git add .
+4. git status
+5. git commit -am"file name"
+6. git remote add origin http://git@github.com/[username]/[repository-name].git
+7. git push origin master
